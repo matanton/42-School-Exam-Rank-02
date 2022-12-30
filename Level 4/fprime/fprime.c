@@ -10,6 +10,11 @@ int main(int argc, char **argv)
 	{
 		if (num ==1)
 			printf("1");
+		while (n % 2 == 0)
+		{
+			printf("2*");
+			n = n / 2;
+		}		
 		while(i <= num)
 		{
 			if (num % i == 0)
